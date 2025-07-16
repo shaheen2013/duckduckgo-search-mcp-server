@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/K-71811317-ab29-48ab-84b7-013aee89b4b9.png" alt="alt text">
+  <img src="arts/logo.png" alt="alt text">
 </div>
 
 # MCP DuckDuckGo Search
@@ -57,7 +57,7 @@ npm run inspector
 
 Access the MCP Inspector and then test the tool e.g.
 
-![alt text](image.png)
+![alt text](arts/image.png)
 
 
 ## Development
