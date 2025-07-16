@@ -2,6 +2,20 @@
 
 A Model Context Protocol (MCP) server querying DuckDuckGo Instant Answer API.
 
+## Installation
+
+### Manual Installation
+```bash
+# Clone the repository
+git clone https://github.com/shaheen2013/duckduckgo-search-mcp-server.git
+cd duckduckgo-search-mcp-server
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+```
 
 ## Usage
 
