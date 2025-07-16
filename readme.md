@@ -1,8 +1,18 @@
 # MCP DuckDuckGo Search
 
+[![smithery badge](https://smithery.ai/badge/@shaheen2013/duckduckgo-search-mcp-server)](https://smithery.ai/server/@shaheen2013/duckduckgo-search-mcp-server)
+
 A Model Context Protocol (MCP) server querying DuckDuckGo Instant Answer API.
 
 ## Installation
+
+### Installing via Smithery
+
+To install duckduckgo-search-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@shaheen2013/duckduckgo-search-mcp-server):
+
+```bash
+npx -y @smithery/cli install @shaheen2013/duckduckgo-search-mcp-server --client claude
+```
 
 ### Manual Installation
 ```bash
