@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/K-71811317-ab29-48ab-84b7-013aee89b4b9.png" alt="alt text">
+</div>
+
 # MCP DuckDuckGo Search
 
 A Model Context Protocol (MCP) server querying DuckDuckGo Instant Answer API.
