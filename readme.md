@@ -1,6 +1,48 @@
+
+<div align="center">
+  <img src="https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/K-71811317-ab29-48ab-84b7-013aee89b4b9.png" alt="alt text">
+</div>
+
 # MCP DuckDuckGo Search
 
 A Model Context Protocol (MCP) server querying DuckDuckGo Instant Answer API.
+
+## Installation
+
+### Installing via Smithery
+
+To install DuckDuckGo Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@shaheen2013/duckduckgo-search-mcp-server):
+
+```bash
+npx -y @smithery/cli install @shaheen2013/duckduckgo-search-mcp-server --client claude
+```
+
+### Manual Installation
+```bash
+# Clone the repository
+git clone https://github.com/shaheen2013/duckduckgo-search-mcp-server.git
+cd duckduckgo-search-mcp-server
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+```
+### Docker
+
+You can test this MCP server using Docker. To do this first run:
+
+```bash
+docker build -t duckduckgo-search-mcp-server .
+docker run -p 8080:8080 duckduckgo-search-mcp-server
+```
+
+You can then test the server running within Docker via the inspector e.g.
+
+```bash
+pnpm run inspector http://localhost:8080
+```
 
 
 ## Usage
