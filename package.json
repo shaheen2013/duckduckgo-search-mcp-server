@@ -1,0 +1,29 @@
+{
+  "name": "duckduckgo-search-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP-compatible server for querying DuckDuckGo Instant Answer API.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "mcp-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-fetch": "^2.6.12",
+    "typescript": "^5.3.3"
+  }
+}
